@@ -43,7 +43,7 @@ StartWatchRadio:
 Return
 
 EndWatchRadio:
-    SendCommand("/r BADGENR ending watch, disbanding unit")
+    SendCommand("/r CALLSIGNNR ending watch, disbanding unit")
     Sleep, 500
     SendCommand("/Disbandunit")
 Return
